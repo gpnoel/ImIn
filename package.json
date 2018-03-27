@@ -1,0 +1,61 @@
+{
+  "name": "ImIn",
+  "version": "2.0.0",
+  "description": "A web mobile app designed to make organizing pick up games easier.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "server": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "prodserv": "cross-env NODE_ENV=production node server.js",
+    "devserv": "cross-env NODE_ENV=development node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greg495/ImIn.git"
+  },
+  "author": "Graigor Pierre-Noel, Kenneth Schmitt, Geoff Rosenthal, Greg McCutcheon, Johnna Todaro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gpnoel/ImIn/issues"
+  },
+  "homepage": "https://github.com/gpnoel/ImIn#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "google-maps-react": "^1.0.19",
+    "lodash": "^4.17.5",
+    "mssql": "^3.3.0",
+    "mysql": "^2.13.0",
+    "path": "^0.12.7",
+    "punycode": "^2.1.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-hot-loader": "^4.0.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/preset-react": "^7.0.0-beta.40",
+    "babel-loader": "^8.0.0-beta.0",
+    "clean-webpack-plugin": "^0.1.18",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.10",
+    "express": "^4.16.2",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.0.6",
+    "nodemon": "^1.11.0",
+    "style-loader": "^0.20.2",
+    "uglifyjs-webpack-plugin": "^1.2.3",
+    "webpack-dev-middleware": "^3.0.1",
+    "webpack-merge": "^4.1.2"
+  }
+}

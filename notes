@@ -1,0 +1,39 @@
+TO-DO:
+    check if i need common and manifest chunk plugin
+    delete unused dependencies from package.json
+    look into auto builder (yarn or travis)
+        think of tests to run
+    look into PWA (Progressive Web Apps)
+
+react
+    https://reacttraining.com/react-router/web/guides/code-splitting
+    https://github.com/gaearon/react-hot-loader
+
+mariadb commands
+    https://mariadb.com/kb/en/library/show-privileges/
+    https://mariadb.com/kb/en/library/grant/
+    http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch34_:_Basic_MySQL_Configuration#.WqspbmrwaCg
+
+for configurations on opitmizaiton.splitChunks
+    https://github.com/webpack/webpack/issues/6357
+    https://gist.github.com/sokra/1522d586b8e5c0f5072d7565c2bee693
+
+
+1. `hot: true` property in devServer
+2. `output.publicPath` and/or `devServer.publicPath`
+3. http://localhost:8008/webpack-dev-server/index/html
+4. `devserver.public`
+5. [hash] in filenames
+
+https://github.com/webpack/webpack-dev-server/issues/79#issuecomment-244596129
+https://github.com/webpack/docs/wiki/webpack-dev-server
+https://webpack-gatsby.netlify.com/how-to/set-up-hmr-with-react/
+https://hackernoon.com/hot-reload-all-the-things-ec0fed8ab0
+
+copy-webpack-plugin to output images into dist/
+for public-path
+    https://medium.com/a-beginners-guide-for-webpack-2/copy-all-images-files-to-a-folder-using-copy-webpack-plugin-7c8cf2de7676
+
+linting and CI
+    https://eslint.org/docs/rules/
+    https://docs.travis-ci.com/user/languages/javascript-with-nodejs/#Specifying-Node.js-versions
