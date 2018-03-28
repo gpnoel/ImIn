@@ -44,8 +44,8 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].bundle.js',
-        publicPath: '/'
+        filename: '[name].bundle.js'//,
+        //publicPath: '/' //commented out for minimal testing on localhost on client
     },
     module: {
         rules: [{

@@ -17,14 +17,14 @@ ReactDOM.render(<Form />, document.getElementById('formContainer'));
 var chat = $("#chatContainer").detach();
 var form = null;
 
-module.hot.accept();
-if (module.hot) {
-  module.hot.accept('../components/form.jsx', function() {
-    console.log('Accepting the updated Form component');
-    const newForm = require('../components/form.jsx').default
-    render(newForm)
-  });
-}
+// module.hot.accept();
+// if (module.hot) {
+//   module.hot.accept('../components/form.jsx', function() {
+//     console.log('Accepting the updated Form component');
+//     const newForm = require('../components/form.jsx').default
+//     render(newForm)
+//   });
+// }
 // (() => {
 //   console.log("good vibes :)")
 // })();
