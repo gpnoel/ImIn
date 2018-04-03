@@ -1,7 +1,9 @@
+import * as app_data from '../../app_data.js';
+
 /* Setup SDK and Facebook integration */
 window.fbAsyncInit = function() {
   FB.init({
-    appId      : '274178513017639',
+    appId      : app_data.remoteFBAppId,
     cookie     : true,
     xfbml      : true,
     version    : 'v2.8'
